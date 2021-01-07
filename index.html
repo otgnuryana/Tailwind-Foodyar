@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Tailwind</title>
+    <link rel="stylesheet" href="public/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container mx-auto font-otg">
+        <!-- Navigasi Start -->
+        <nav class="flex items-center justify-between mt-8 mx-10">
+            <div>
+                <img class="ml-4" src="public/img/logo.png" alt="">
+            </div>
+            <div>
+                <a href="" class="mr-7 text-primary font-bold border-b-4 border-red-200 rounded-sm">Home</a>
+                <a href="" class="mr-7 text-secondary">Beverages</a>
+                <a href="" class="mr-7 text-secondary">Chef</a>
+                <a href="" class="mr-7 text-secondary">Ingredient</a>
+                <a href="" class="mr-7 text-secondary">Stories</a>
+                <button class="ml-5 text-primary font-bold bg-red-100 hover:bg-red-50 px-6 py-2 rounded-t-3xl rounded-b-xl">My Kitchen</button>
+
+            </div>
+        </nav>
+        <!-- Navigasi End -->
+
+        <!-- Header Section -->
+        <section class="flex mt-24">
+            <div class="text-left items-center w-3/6 px-10 mt-12 ml-20">
+                <h1 class="text-5xl leading-normal my-2 text-primary  font-extrabold"><span class="border-b-8 rounded-b-md border-red-200">Eat</span> What You Cook <br>
+                    With Us, Together!</h1>
+                    <h2 class=" ml-1 mt-3 text-xl text-secondary">
+                        When you eat something that cooked by <br>
+    yourself, the happiness is priceless.
+                    </h2>
+                    <button class="text-primary bg-yellow-400 hover:bg-yellow-300 px-7 mt-6 py-2  font-bold rounded-t-3xl rounded-b-xl">Decide a Menu</button>
+                </div>
+                <div class="justify-items-center w-3/6 px-5 mr-28">
+                    <img src="public/img/pic.png" class="max-w-full inline-flex" alt="">
+
+
+                </div>
+
+
+        </section>
+        <!-- Header End -->
+
+        <!-- Content Section -->
+        <section class="grid justify-items-center mt-36">
+            <div class="text-center">
+                <h2 class="text-secondary text-xl">Watch Now</h2>
+                <h1 class="text-3xl text-primary font-bold mt-2">Special to Try</h1>
+
+                <div class="flex-center text-center mt-5 font-otg text-xl text-primary">
+                    <span class="font-bold text-add mr-12 border-b-4 pb-2 border-yellow-300 border-opacity-80 rounded-sm">Healty Food</span>
+                    <a href="" class="mr-12">Lunch</a>
+                    <a href="" class="mr-12">Vege Desert</a>
+                    <a href="" class="mr-12">Shake</a>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-4 mt-14 ml-7 text-center sm:block md:inline-grid">
+                <div class="mr-8">
+                    <img src="public/img/pic1.png" alt="">
+                    <img src="public/img/btn.png" alt="" class="-mt-44 ml-28 absolute hover:opacity-100 opacity-0">
+                    <h2 class="text-primary font-otg text-2xl font-semibold mt-4">Salad Kiwi Sugga</h2>
+                    <p class="text-secondary font-otg mt-2">Amir Samantha</p>
+                    <div class="stars ml-16 px-1 mt-3 mb-5" data-stars="5">
+                        <svg height="25" width="23" class="star rating mr-2 " data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="mr-8">
+                    <img src="public/img/pic2.png" alt="">
+                    <h2 class="text-primary font-otg text-2xl font-semibold mt-4">Avocado Muscle</h2>
+                    <img src="public/img/btn.png" alt="" class="-mt-56 ml-28 absolute hover:opacity-100 opacity-0">
+                    <p class="text-secondary font-otg mt-2">John Lennonk</p>
+                    <div class="stars ml-16 px-1 mt-3 mb-5" data-stars="5">
+                        <svg height="25" width="23" class="star rating mr-2 " data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="mr-8">
+                    <img src="public/img/pic3.png" alt="">
+                    <h2 class="text-primary font-otg text-2xl font-semibold mt-4">Bayam Red Poppeye</h2>
+                    <img src="public/img/btn.png" alt="" class="-mt-56 ml-28 absolute hover:opacity-100 opacity-0">
+                    <p class="text-secondary font-otg mt-2">Toekang Sayoer</p>
+                    <div class="stars ml-16 px-1 mt-3 mb-5" data-stars="5">
+                        <svg height="25" width="23" class="star rating mr-2 " data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="mr-8">
+                    <img src="public/img/pic4.png" alt="">
+                    <h2 class="text-primary font-otg text-2xl font-semibold mt-4">Naga Fruity Joss</h2>
+                    <img src="public/img/btn.png" alt="" class="-mt-56 ml-28 absolute hover:opacity-100 opacity-0">
+                    <p class="text-secondary font-otg mt-2">Imelda Saranghae</p>
+                    <div class="stars ml-16 px-1 mt-3 mb-5" data-stars="5">
+                        <svg height="25" width="23" class="star rating mr-2 " data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                        <svg height="25" width="23" class="star rating mr-2" data-rating="5">
+                            <polygon points="9.9, 1.1, 3.3, 21.78, 19.8, 8.58, 0, 8.58, 16.5, 21.78" style="fill-rule:nonzero;" fill="orange"/>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Content End -->
+
+        <!-- Section Testimonial -->
+        <section>
+            <div class="grid grid-cols-12 mt-36">
+                <div class="text-center items-center col-start-4 col-end-10 text-4xl text-primary">" Awalnya saya malu dengan mertua karena tidak bisa memasak, kini mereka lebih suka makan malam di rumah demi menyantap masakan yang saya buat sendiri "</div>
+            </div>
+            <div class="grid grid-cols-12 mt-8">
+                <div class="flex col-start-5 col-end-9">
+                    <img src="public/img/image 9.png" class="rounded-full testi ml-12" alt="">
+                    <div class="grid-rows-2 mt-2 ml-5">
+                        <h1 class="text-primary font-semibold text-xl">Camella Sarrah</h1>
+                    <p class="text-secondary mt-1 text-base">Vege Master</p>
+                    </div>
+                </div>
+
+
+                <!-- Statistic -->
+                <div class="flex col-start-2 col-end-10 mt-24 ml-5 text-center">
+                    <div class="mx-16">
+                        <h1 class="text-primary font-bold text-3xl">180.000+</h1>
+                    <p class="text-secondary mt-1 text-lg">MENU FOOD</p>
+                    </div>
+                    <div class="mx-16">
+                        <h1 class="text-primary font-bold text-3xl">20.000+</h1>
+                    <p class="text-secondary mt-1 text-lg">CHEFS</p>
+                    </div>
+                    <div class="mx-16">
+                        <h1 class="text-primary font-bold text-3xl">400.000+</h1>
+                    <p class="text-secondary mt-1 text-lg">COURSE</p>
+                    </div>
+                    <div class="mx-16">
+                        <h1 class="text-primary font-bold text-3xl">720.000+</h1>
+                    <p class="text-secondary mt-1 text-lg">ALUMNI</p>
+                    </div>
+                </div>
+                <!-- Statistic End -->
+            </div>
+
+        </section>
+        <!-- Section Testimonial End -->
+        <section>
+            <div class="flex mt-24">
+                <div class="items-center w-3/6">
+                    <img src="public/img/app.png" class="ml-36" alt="">
+                </div>
+                <div class="grid grid-rows-4 w-3/6 ml-4">
+                    <div class="row-start-2 row-span-2 px-5">
+                        <h1 class="text-5xl leading-normal text-primary font-extrabold"><span class="border-b-8 rounded-b-md border-red-200">Download</span> our app <br>
+                            and join the contest</h1>
+                        <p class="mt-7 text-2xl w-3/4 text-secondary">In order to improve our cooking skills,
+                            we do need a food photography </p>
+                        <div class="flex mt-12">
+                            <img src="public/img/aivalable-on-the-app-store-2.png" alt="" class="mr-5">
+                            <img src="public/img/google-play-download-android-app (1).png" alt="">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+        <footer class="flex text-left mt-36 pb-7 border-t-2 border-b-2">
+            
+            <div class="w-1/4 grid-rows-3">
+                <img src="public/img/logo.png" alt="" class="mt-16 ml-20">
+
+            </div>
+            <div class="w-1/4 mt-6">
+                <h1 class="text-xl font-semibold text-primary">Special Course</h1>
+                <ul class="text-secondary text-lg mt-2">
+                    <li>Wedding Foods</li>
+                    <li class="underline">Wedding Foods</li>
+                    <li>Office Food Daily</li>
+                    <li>Happy Kids</li>
+                </ul>
+            </div>         
+            <div class="w-1/4 mt-6">
+                <h1 class="text-xl font-semibold text-primary">Company</h1>
+                <ul class="text-secondary text-lg mt-2">
+                    <li>APIs Developer</li>
+                    <li>Career</li>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>         
+            <div class="w-1/4 mt-6">
+                <h1 class="text-xl font-semibold text-primary">Be Our Friend</h1>
+                <ul class="text-secondary text-lg mt-2">
+                    <li>3, Season Park, Jakarta</li>
+                    <li>support@foodyar.co,id</li>
+                    <li>021 - 1111 - 2222</li>
+                </ul>
+            </div>         
+        </footer>
+        <p class="text-center text-lg mt-4 text-secondary">All Rights Reserved Foodyar by Pixel from BuildWith Angga 2020</p>
+
+    </div>
+
+
+</body>
+</html>
